@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7ab8ea8-b277-4f01-8055-4de9361844df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_vendor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aVUg8DnG2RFWs7nTI3emxVBVj7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7ab8ea8-b277-4f01-8055-4de9361844df" name="Default Changelist" comment="" />
+      <created>1586820362260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586820362260</updated>
+      <workItem from="1586820363659" duration="7583000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="220" y="48" width="829" height="653" key="EditFileWatcherDialog" timestamp="1586823019266">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="220" y="48" width="829" height="653" key="EditFileWatcherDialog/0.23.1280.722@0.23.1280.722" timestamp="1586823019266" />
+    <state x="149" y="23" key="SettingsEditor" timestamp="1586823020625">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="149" y="23" key="SettingsEditor/0.23.1280.722@0.23.1280.722" timestamp="1586823020625" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1586823425347">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1280.722@0.23.1280.722" timestamp="1586823425347" />
+    <state x="306" y="141" width="667" height="486" key="find.popup" timestamp="1586825165240">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="306" y="141" width="667" height="486" key="find.popup/0.23.1280.722@0.23.1280.722" timestamp="1586825165240" />
+    <state x="305" y="69" width="670" height="676" key="search.everywhere.popup" timestamp="1586827154915">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="305" y="69" width="670" height="676" key="search.everywhere.popup/0.23.1280.722@0.23.1280.722" timestamp="1586827154915" />
+  </component>
+</project>
