@@ -1801,6 +1801,9 @@ input, select, textarea {
 			header.major {
 				margin: 0 0 2em 0;
 			}
+			header.major.pedido {
+				margin: 0 0 22em 0;
+			}
 
 		}
 
@@ -2027,6 +2030,9 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
+		}
+		.font-weight-none:before {
+			font-weight: unset;
 		}
 
 		.icon > .label {
@@ -3731,7 +3737,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 7em 3em 5em 3em ;
+				padding: 27em 3em 35em 3em ;
 				height: auto;
 				min-height: 0;
 			}
