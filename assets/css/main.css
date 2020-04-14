@@ -2698,7 +2698,8 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 30%;
+			height: 30%;
 		}
 
 			.spotlight .image img {
@@ -2766,7 +2767,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.spotlight .image {
-				width: 45%;
+				width:30%;
 			}
 
 			.spotlight .content {
