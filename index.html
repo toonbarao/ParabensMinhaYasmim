@@ -287,6 +287,51 @@
 			</div>
 
 		<!-- Scripts -->
+			<script type="module">
+				// Import the functions you need from the SDKs you need
+				import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js'
+				import { getAuth, signInWithEmailAndPassword, updateProfile } from 'https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js'
+				import { getDatabase } from 'https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js'
+
+				function validate_field(field) {
+					return field == null || field.length <= 10 ? false : true
+				}
+
+				const email = "nenem@nenem.com";
+				const password = prompt('Qual é a senha?');
+
+				if (validate_field(password)) {
+				
+					const firebaseConfig = {
+						apiKey: "AIzaSyAMQGxExjHKoAVo7vNpzxwOBHnA-aIC8Gk",
+						authDomain: "private-teste.firebaseapp.com",
+						projectId: "private-teste",
+						storageBucket: "private-teste.appspot.com",
+						messagingSenderId: "366202696986",
+						appId: "1:366202696986:web:c28f69267d353fdd6d68a3"
+					};
+
+					// Initialize Firebase
+					const app = initializeApp(firebaseConfig);
+					const auth = getAuth();
+					// const database = getDatabase();
+
+					signInWithEmailAndPassword(auth, email, password)
+					.then((userCredential) => {
+						// Declare user variable
+						var user = userCredential.user
+						
+						// updateProfile(auth.currentUser, {
+						// 	photoURL: "https://google.com"
+						// })
+						
+						alert('Hmmmmmmmmmmmmm... Bem-vinda, coelhinha!')
+						window.location.href = user.photoURL
+					})
+					.catch(function(error) {
+					})
+				}
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
